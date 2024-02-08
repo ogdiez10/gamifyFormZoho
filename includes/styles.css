@@ -1,0 +1,580 @@
+
+#Zohoform { display:none !important; }
+
+.multiformwrapper textarea::-webkit-input-placeholder {
+ font-family: 'Open Sans', sans-serif !important; font-weight:600 !important; 
+}
+.multiformwrapper textarea:-ms-input-placeholder {
+ font-family: 'Open Sans', sans-serif !important; font-weight:600 !important; 
+}
+.multiformwrapper textarea:-moz-placeholder {
+ font-family: 'Open Sans', sans-serif !important; font-weight:600 !important; 
+}
+.multiformwrapper textarea::-moz-placeholder {
+ font-family: 'Open Sans', sans-serif !important; font-weight:600 !important; 
+}
+
+.multiformwrapper .thanks { font-size: 14px; }
+
+.multiformwrapper .tooltipin {
+         position:absolute !important;
+         top:5px !important;
+         right:5px !important;
+         filter: none !important;
+         max-width: 20px !important;
+         margin-bottom: 0px !important;
+         width:16px !important;
+         height: 17px !important;
+         display:block !important;
+         background:url("Tooltip-Red.svg") no-repeat center !important;
+         background-size:contain !important;
+    }
+
+    .multiformwrapper .tooltipintext {
+        right: 20px;
+        bottom: 5px;
+        display:none;
+        position: absolute !important;
+        z-index: 2222 !important;
+        background: #fff !important;
+        color: #3a3a3a !important;
+        padding: 10px !important;
+        border-radius: 3px !important;
+        font-size: 11px !important;
+        line-height: 14px !important;
+        width: 200px !important;
+        box-shadow: 1px 1px 5px #545454 !important;
+        display: none;
+        text-transform: none !important;
+        font-family: Arial,sans-serif !important;
+   }
+
+   .multiformwrapper .buttons:hover .tooltipin, .buttons.active .tooltipin {
+    background:url("Tooltip-Red-and-White-01.png") no-repeat center !important;
+    background-size:contain !important;
+    }
+
+    #step3, #step5, #step6 { position: relative; }
+    #tooltip2 { right: 25px; bottom: -13px; }
+    #tooltip3 { right:25px; bottom: initial; top:0; }
+    #tooltip4 { right: 25px; bottom: initial; top:0; }
+    #step5 label { position: relative; }
+
+ .multiformwrapper .entry-content {
+     margin-top: 0px !important;
+}
+ .multiformwrapper #primary {
+     padding-top: 0px !important;
+}
+ .multiformwrapper .t34 h2 {
+     font-family: "Open Sans", sans-serif !important;
+     font-weight: 700 !important;
+     font-size: 34px !important;
+     line-height: 52px !important;
+     color: #343434 !important;
+     padding: 25px 0 21px !important;
+}
+ .multiformwrapper .redborderbox.treinta {
+     width: calc(33% - 20px) !important;
+}
+ .multiformwrapper .redborderbox .wpb_single_image img {
+     margin-bottom: 15px !important;
+}
+ .multiformwrapper #featured img {
+     margin: 0 25px !important;
+}
+ .multiformwrapper #featured p {
+     font-size: 20px !important;
+     color: #333 !important;
+}
+ .multiformwrapper .wpb_column.vc_column_container.vc_col-sm-12 {
+     max-width: 1024px !important;
+     margin: 0 auto !important;
+     float: none !important;
+}
+ .multiformwrapper .redbutton.link a {
+     color: #fff !important;
+}
+ .multiformwrapper .redborderbox .title p {
+     color: #343434 !important;
+}
+ .multiformwrapper .redborderbox .text p {
+     color: #72808e !important;
+}
+ .multiformwrapper .sfError {
+     font-size: 12px !important;
+     display: none;
+     text-align: center !important;
+     color: #ed424b !important;
+     font-weight: bold !important;
+     text-transform: uppercase !important;
+}
+ .multiformwrapper .sfError.phoneerror, .multiformwrapper .sfError.emailerror {
+     font-size: 12px !important;
+     height: 25px !important;
+}
+ .multiformwrapper .multistepGriffin {
+     border-radius: 6px !important;
+     display: block !important;
+     margin: 20px auto !important;
+     padding: 20px 30px !important;
+     background-color: #fff !important;
+     width: 760px !important;
+     height: auto !important;
+     min-height: 300px !important;
+     overflow: hidden !important;
+     max-width: 100% !important;
+     min-height: 350px !important;
+}
+ .multiformwrapper .multistepGriffin h3 {
+     color: #000 !important;
+     text-align: center !important;
+     font-family: Open Sans !important;
+     font-size: 18px !important;
+     font-style: normal !important;
+     font-weight: 600 !important;
+     line-height: normal !important;
+}
+ .multiformwrapper .multistepGriffin .disclaimer {
+     font-family: Open Sans !important;
+     font-weight: 400 !important;
+     font-size: 11px !important;
+     line-height: 15px !important;
+     text-align: center !important;
+     color: #cacaca !important;
+     margin: 0 !important;
+     padding: 0 !important;
+     display: inline-block !important;
+     text-align: center !important;
+     margin-top: 15px !important;
+     width: 100% !important;
+     font-style: italic !important;
+}
+ .multiformwrapper .grw-slider .wp-google-stars path {
+     fill: #ed424b !important;
+}
+ .multiformwrapper .grw-slider-dots {
+     display: none;
+     opacity: 0 !important;
+}
+ .multiformwrapper .multistepGriffin .step {
+     text-align: center !important;
+     display: none;
+}
+ .multiformwrapper .derecha div.form, .multiformwrapper .loan_banner div.form {
+     display: none;
+}
+ .multiformwrapper .multistepGriffin .buttons {
+     width: calc(33% - 32px) !important;
+     display: inline-block !important;
+     max-width: 150px !important;
+     margin: 15px 15px 0 !important;
+     border: solid 1px #979797 !important;
+     border-radius: 8px !important;
+     padding: 18px !important;
+     cursor: pointer !important;
+     background-color: #fff !important;
+     display: inline-table !important;
+}
+ .multiformwrapper .multistepGriffin .buttons {
+     color: #5d5d5d !important;
+     font-weight: 400 !important;
+     font-size: 13px !important;
+}
+ .multiformwrapper .multistepGriffin .buttons.cuatro {
+     width: calc(25% - 10px) !important;
+     margin: 15px 10px 0 0 !important;
+     padding: 15px 10px !important;
+}
+ .multiformwrapper .multistepGriffin .buttons.cuatro:last-child {
+     margin-right: 0px !important;
+}
+ .multiformwrapper .multistepGriffin .buttons.cuatro span {
+     display: block !important;
+     text-align: center !important;
+}
+ .multiformwrapper .multistepGriffin .buttons.full {
+     width: 100% !important;
+     margin: 10px 0 !important;
+     padding: 15px 10px !important;
+     max-width: 100% !important;
+     box-sizing: border-box !important;
+}
+ .multiformwrapper .multistepGriffin .buttons:hover, .multiformwrapper .multistepGriffin .buttons.active {
+     color: #fff !important;
+}
+ .multiformwrapper .multistepGriffin .buttons img {
+     filter: invert(50%) !important;
+     max-width: 70% !important;
+     margin-bottom: 0px !important;
+     height: 75px !important;
+     width: auto !important;
+}
+ .multiformwrapper .multistepGriffin .buttons:hover img, .multiformwrapper .multistepGriffin .buttons.active img {
+     filter: invert(0) !important;
+}
+ .multiformwrapper .multistepGriffin .buttons:hover, .multiformwrapper .multistepGriffin .buttons.active {
+     background-color: #ed424b !important;
+}
+ .multiformwrapper .multistepGriffin .buttons:hover img, .multiformwrapper .multistepGriffin .buttons.active img {
+     filter: brightness(300%) !important;
+}
+ .multiformwrapper .multistepGriffin .progressbar {
+     display: flex;
+     margin-bottom: 19px !important;
+     justify-content: space-around !important;
+     position: relative !important;
+}
+ .multiformwrapper .multistepGriffin .progress {
+     cursor: pointer !important;
+     width: 16px !important;
+     height: 16px !important;
+     border-radius: 100px !important;
+     border: 2px solid #abc5ec !important;
+     background: #fff !important;
+     z-index: 9 !important;
+}
+ .multiformwrapper .multistepGriffin .progress.active, .multiformwrapper .multistepGriffin .progress:hover {
+     background-color: #1a2967 !important;
+     border: 2px solid #588cd9 !important;
+     width: 16px !important;
+     height: 16px !important;
+}
+ .multiformwrapper .multistepGriffin .progressbar hr {
+     position: absolute !important;
+     border: 1px solid rgba(149, 154, 163, 0.50) !important;
+     width: 80% !important;
+     z-index: 0 !important;
+     margin: 7px !important;
+     padding: 0 !important;
+}
+ .multiformwrapper .multistepGriffin button {
+     clear: both !important;
+     display: inline-block !important;
+     margin: 15px auto 0 !important;
+     width: 256px !important;
+     height: 50px !important;
+     line-height: 50px !important;
+     text-align: center !important;
+     vertical-align: middle !important;
+     color: #fff !important;
+     font-size: 11px !important;
+     border-radius: 8px !important;
+     border: none !important;
+     background-color: #ed424b !important;
+     text-transform: uppercase !important;
+     cursor: pointer !important;
+}
+ .multiformwrapper .multistepGriffin button:focus {
+     outline: none !important;
+}
+ .multiformwrapper .multistepGriffin .group {
+     width: calc(50% - 40px) !important;
+     display: inline-block !important;
+     max-width: 270px !important;
+     margin: 0 20px !important;
+     float: left !important;
+}
+ .multiformwrapper .multistepGriffin .groupfull {
+     width: calc(100% - 40px) !important;
+     display: inline-block !important;
+     margin: 0 20px !important;
+     float: left !important;
+}
+ .multiformwrapper .multistepGriffin label {
+     color: #666 !important;
+     font-family: Open Sans !important;
+     font-size: 12px !important;
+     font-style: normal !important;
+     font-weight: 600 !important;
+     line-height: 18px !important;
+     text-align: left !important;
+     margin: 9px 0 !important;
+     display: block !important;
+     width: 100% !important;
+     padding-top:0px !important;
+     padding-bottom:0px !important;
+}
+ .multiformwrapper .multistepGriffin input[type="text"], .multiformwrapper .multistepGriffin select, .multiformwrapper .multistepGriffin textarea {
+     float: left !important;
+     font-size: 13px !important;
+     text-align: left !important;
+     color: #5d5d5d !important;
+     border-top: none !important;
+     border-right: none !important;
+     border-left: none !important;
+     border: solid 1px #ed424b !important;
+     height: 43px !important;
+     line-height: 43px !important;
+     vertical-align: middle !important;
+     width: 100% !important;
+     border-radius: 0px !important;
+     padding-left: 15px !important;
+     padding-right: 15px !important;
+     border-radius: 10px !important;
+     font-family: 'Open Sans', sans-serif !important;
+     font-weight: 600 !important;
+     padding-top:0px !important;
+     padding-bottom:0px !important;
+}
+ .multiformwrapper .multistepGriffin textarea {
+     height: 117px !important;
+     border-radius: 0 !important;
+}
+ .multiformwrapper .multistepGriffin input[type="text"].error, .multiformwrapper .multistepGriffin select.error {
+     border: solid 2px #933 !important;
+}
+ .multiformwrapper input[type="text"]:focus, .multiformwrapper input[type="number"]:focus, .multiformwrapper input[type="email"]:focus, .multiformwrapper input[type="tel"]:focus, .multiformwrapper select:focus {
+     border: solid 2px #ed424b !important;
+     outline: none !important;
+     border-radius: 3px !important;
+}
+ .multiformwrapper #wpcf7-f4387-o1 {
+     display: none;
+}
+ .multiformwrapper .wpb_column.vc_column_container.vc_col-sm-12 {
+     max-width: 1168px !important;
+}
+ .multiformwrapper #loans_template .vc_carousel-control {
+     color: #cfcfcf !important;
+}
+ .multiformwrapper #loans_template .vc_images_carousel .vc_carousel-control.vc_right {
+     right: -35px !important;
+}
+ .multiformwrapper #loans_template .vc_images_carousel .vc_carousel-control.vc_left {
+     left: -35px !important;
+}
+ .multiformwrapper .vc_images_carousel .vc_carousel-control .icon-next, .multiformwrapper .vc_images_carousel .vc_carousel-control .icon-prev {
+     font-size: 60px !important;
+     margin-top: -30px !important;
+}
+ .multiformwrapper .arrowback {
+     text-align: right !important;
+     position: absolute !important;
+     top: 24% !important;
+     left: 100% !important;
+     left: 95% !important;
+     width: 40px !important;
+}
+ .multiformwrapper .onlymobile {
+     display: none;
+}
+ .multiformwrapper .form {
+     width: 320px !important;
+     float: right !important;
+     padding-bottom: 0px !important;
+}
+ .multiformwrapper .multistepGriffin.mini {
+     padding: 30px 28px !important;
+     width: 363px !important;
+     margin-bottom: 0px !important;
+     overflow: hidden !important;
+     min-height: 0 !important;
+     box-sizing: border-box !important;
+     max-width: 100% !important;
+}
+ .multiformwrapper .multistepGriffin.mini .buttons {
+     padding: 15px !important;
+     cursor: pointer !important;
+     display: flex !important;
+     justify-content: space-between !important;
+     align-items: center !important;
+     box-sizing: border-box !important;
+     height: 79px !important;
+}
+ .multiformwrapper .multistepGriffin.mini .buttons img {
+     height: 40px !important;
+     margin-bottom: 0px !important;
+}
+ .multiformwrapper .multistepGriffin.mini button {
+     width: 100% !important;
+     height: 53px !important;
+     color: #fff !important;
+     text-align: center !important;
+     font-family: Open Sans !important;
+     font-size: 16px !important;
+     font-style: normal !important;
+     font-weight: 600 !important;
+     line-height: normal !important;
+     box-sizing: border-box !important;
+     border-radius: 0 !important;
+}
+ .multiformwrapper .multistepGriffin.mini .groupfull {
+     width: 100% !important;
+     margin: 0 !important;
+}
+ .multiformwrapper .loan_banner .loan_banner_title {
+     margin-top: 50px !important;
+}
+ .multiformwrapper .buttons {
+     position: relative !important;
+}
+ .multiformwrapper #loans_header .loan_banner_title h1 {
+     margin-top: 0px !important;
+}
+ .multiformwrapper #loans_header .loan_banner .container, .multiformwrapper #loans_header .loan_banner .container .row, .multiformwrapper #loans_header .loan_banner .container .row .col-md-8 {
+     height: 100% !important;
+}
+ .multiformwrapper #loans_header .loan_banner .container .row .col-md-8 {
+     display: flex !important;
+     vertical-align: middle !important;
+     margin-top: 0px !important;
+     padding: 0 0 0 0 !important;
+     flex-direction: column !important;
+     justify-content: center !important;
+}
+ .multiformwrapper #loans_header h6.sub-title {
+     display: none;
+}
+ .multiformwrapper .home .derecha .form, .multiformwrapper .page-id-32 .derecha .form {
+     background: #fff !important;
+     border-radius: 15px !important;
+     margin: 60px 0 0 0 !important;
+     padding: 30px 20px 20px 20px !important;
+}
+ .multiformwrapper #loans_header .form {
+     max-width: 100% !important;
+}
+ .multiformwrapper .multistepGriffin #amount {
+     margin-bottom: 10px !important;
+}
+
+.multiformwrapper #stepThanks h2 { margin-top:29px; }
+
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .multiformwrapper .home #content .header2021, .multiformwrapper .page-id-32 #content .header2021, .multiformwrapper .page-id-48 #loans_header .loan_banner {
+         padding: 50px 40px !important;
+    }
+     .multiformwrapper .loan_banner .col-md-8.col-xs-12 {
+         width: 60% !important;
+         float: left !important;
+    }
+     .multiformwrapper .loan_banner .col-md-4.col-xs-12 {
+         width: 40% !important;
+         float: left !important;
+    }
+     .multiformwrapper .loan_banner .loan_banner_title {
+         margin-top: 50px !important;
+    }
+     .multiformwrapper #loans_header .form, .multiformwrapper .home .derecha .form, .multiformwrapper .page-id-32 .derecha .form {
+         max-width: 100% !important;
+    }
+     .multiformwrapper .loan_banner {
+         height: auto !important;
+         padding-bottom: 40px !important;
+    }
+     .multiformwrapper .multistepGriffin .step {
+         text-align: left !important;
+    }
+     .multiformwrapper #loans_header .loan_banner .container .row {
+         position: relative !important;
+    }
+     .multiformwrapper #loans_header .loan_banner .container .row .col-md-8 {
+         position: absolute !important;
+    }
+     .multiformwrapper #loans_header .loan_banner .container .row .col-md-4 {
+         float: right !important;
+    }
+}
+ @media only screen and (max-width: 500px) {
+     .multiformwrapper #loans_header .loan_banner {
+         background-position: top !important;
+         background-attachment: fixed !important;
+    }
+     .multiformwrapper #loans_header .loan_banner .container .row .col-md-8 {
+         padding: 40px 40px 0 !important;
+    }
+     .multiformwrapper .loan_banner {
+         height: auto !important;
+    }
+     .multiformwrapper #loans_header .form, .multiformwrapper .home .derecha .form, .multiformwrapper .page-id-32 .derecha .form {
+         margin: 60px auto 0px !important;
+         float: none !important;
+    }
+     .multiformwrapper .multistepGriffin.mini {
+         max-width: 100% !important;
+    }
+     .multiformwrapper .onlymobile {
+         display: block !important;
+    }
+     .multiformwrapper .nomobile {
+         display: none;
+    }
+     .multiformwrapper .arrowback {
+         display: none;
+    }
+     .multiformwrapper .redborderbox.treinta {
+         width: 90% !important;
+    }
+     .multiformwrapper .multistepGriffin {
+         padding: 40px 15px 40px !important;
+         max-width: 90% !important;
+    }
+     .multiformwrapper .multistepGriffin .progress {
+         max-width: 21% !important;
+         margin: 0px 3px !important;
+    }
+     .multiformwrapper .multistepGriffin .buttons {
+         margin: 5px !important;
+         width: calc(33% - 12px) !important;
+         padding: 10px 5px !important;
+         font-size: 11px !important;
+    }
+     .multiformwrapper .multistepGriffin .buttons img {
+         height: 50px !important;
+    }
+     .multiformwrapper .multistepGriffin .buttons.cuatro {
+         width: calc(50% - 12px) !important;
+         margin: 5px !important;
+         padding: 15px 10px !important;
+    }
+     .multiformwrapper .multistepGriffin .buttons.cuatro:last-child {
+         margin-right: 5px !important;
+    }
+     .multiformwrapper #featured span {
+         display: block !important;
+         width: 100% !important;
+         text-align: center !important;
+    }
+     .multiformwrapper #featured img {
+         margin: 10px auto !important;
+         display: block !important;
+    }
+     .multiformwrapper .paddingmobile {
+         padding-left: 20px !important;
+         padding-right: 20px !important;
+    }
+     .multiformwrapper .mobileimages .wpb_single_image img {
+         margin-bottom: 20px !important;
+    }
+     .multiformwrapper .phonemobileimg img {
+         width: 90px !important;
+         height: 83px !important;
+    }
+     .multiformwrapper .vc_custom_1642816017087 {
+         padding-right: 0px !important;
+    }
+     .multiformwrapper .vc_custom_1643085663228 {
+         padding-left: 0px !important;
+    }
+     .multiformwrapper .vc_custom_1643085658717 {
+         text-align: center !important;
+    }
+     .multiformwrapper .vc_custom_1643085668204 p {
+         max-width: 60% !important;
+         text-align: left !important;
+         margin: 0 auto !important;
+    }
+     .multiformwrapper .w33, .multiformwrapper .w33.last {
+         width: 100% !important;
+    }
+     .multiformwrapper .w20, .multiformwrapper .w10 {
+         width: 100% !important;
+    }
+     .multiformwrapper .wpcf7-spinner {
+         display: block !important;
+    }
+     .multiformwrapper #loans_header h1 {
+         font-size: 48px !important;
+    }
+}
